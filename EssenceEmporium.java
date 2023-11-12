@@ -17,6 +17,13 @@ public class EssenceEmporium {
         items.add(new Item("Dragon's Claw", 200.0, users.get(0)));
         items.add(new Item("Phoenix Feather", 500.0, users.get(1)));
         items.add(new Item("Tiger's Eye Gem", 300.0, users.get(2)));
+        items.add(new Item("Sunburst Amulet", 550.0, users.get(0)));
+        items.add(new Item("Shadow Cloak", 480.0, users.get(1)));
+        items.add(new Item("Eternal Rose", 700.0, users.get(2)));
+        items.add(new Item("Thunder Rune Stone", 250.0, users.get(0)));
+        items.add(new Item("Astral Mirror", 600.0, users.get(1)));
+        items.add(new Item("Starlight Elixir", 800.0, users.get(0)));
+        items.add(new Item("Moonstone Ring", 400.0, users.get(1)));
 
         while (true) {
             System.out.println("Welcome to the Essence Emporium!");
